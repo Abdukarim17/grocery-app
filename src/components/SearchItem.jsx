@@ -1,4 +1,4 @@
-const SearchItem = () => {
+const SearchItem = ({searchQuery, handleSearch}) => {
   return (
     <form className='searchForm'>
       <label htmlFor='search'>Search</label>
@@ -7,6 +7,8 @@ const SearchItem = () => {
         type='text'
         role='searchbox'
         placeholder='Search Items'
+        value={searchQuery}
+        onChange={handleSearch}
       />
     </form>
   );
