@@ -1,8 +1,7 @@
-
-Grocery List App
+**Grocery List App**
 A dynamic grocery list application built with React and React-Router-Dom that allows users to efficiently manage their shopping lists. The app integrates with a mock API using db.json for real-time data fetching and updating, ensuring seamless synchronization across the application.
 
-Features
+**Features**
 Add items: Users can add new grocery items to their shopping list.
 Delete items: Remove unwanted items from the list.
 Mark items as purchased: Track purchased items with a single click.
@@ -16,7 +15,7 @@ JavaScript: Main programming language used for logic and interactivity.
 Installation
 To run this project locally, follow these steps:
 
-Clone the repository:
+**Clone the repository:**
 
 bash
 Copy code
