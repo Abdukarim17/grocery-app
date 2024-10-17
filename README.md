@@ -42,21 +42,6 @@ Copy code
 npm start
 The app will open in your browser at http://localhost:3000.
 
-Project Structure
-java
-Copy code
-├── public
-│   └── index.html
-├── src
-│   ├── components
-│   │   └── ListItem.js
-│   ├── pages
-│   │   └── Home.js
-│   ├── App.js
-│   ├── index.js
-│   └── db.json
-├── package.json
-└── README.md
 components/: Contains reusable components such as the ListItem component.
 pages/: Contains different pages of the application (e.g., Home).
 db.json: Simulates a backend database to store and retrieve grocery list items.
